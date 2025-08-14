@@ -1,0 +1,15 @@
+body { line-height: 1.7; }
+.hero-img { width: 220px; height: 220px; object-fit: cover; }
+.skill-badges .badge { margin: 0.25rem; font-weight: 500; }
+.timeline { position: relative; }
+.timeline::before {
+  content: ""; position: absolute; left: 8px; top: 0; bottom: 0;
+  width: 2px; background: rgba(0,0,0,.1);
+}
+.timeline-item { position: relative; padding-left: 2rem; margin-bottom: 1.5rem; }
+.timeline-dot {
+  position: absolute; left: 0; top: 0.4rem; width: 18px; height: 18px;
+  background: #0d6efd; border-radius: 999px; box-shadow: 0 0 0 4px rgba(13,110,253,.15);
+}
+.card p { margin-bottom: 0.75rem; }
+footer { background: #fff; }
